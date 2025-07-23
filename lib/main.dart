@@ -20,7 +20,172 @@ class MyApp extends StatelessWidget {
       "Name": "David",
       "Age": 30,
       "Occupation": "Teacher"
+    },
+    {
+      "Name": "Sarah",
+      "Age": 35,
+      "Occupation": "Business Analyst"
+    },
+    {
+      "Name": "Tom",
+      "Age": 40,
+      "Occupation": "Web Developer"
+    },
+    {
+      "Name": "Jane",
+      "Age": 45,
+      "Occupation": "Project Manager"
+    },
+    {
+      "Name": "Mike",
+      "Age": 50,
+      "Occupation": "Graphic Designer"
+    },
+    {
+      "Name": "Lisa",
+      "Age": 55,
+      "Occupation": "Marketing Specialist"
+    },
+    {
+      "Name": "Kate",
+      "Age": 60,
+      "Occupation": "HR Manager"
+    },
+    {
+      "Name": "Atep",
+      "Age": 20,
+      "Occupation": "Software Engineer"
+    },
+    {
+      "Name": "John",
+      "Age": 25,
+      "Occupation": "Doctor"
+    },
+    {
+      "Name": "David",
+      "Age": 30,
+      "Occupation": "Teacher"
+    },
+    {
+      "Name": "Sarah",
+      "Age": 35,
+      "Occupation": "Business Analyst"
+    },
+    {
+      "Name": "Tom",
+      "Age": 40,
+      "Occupation": "Web Developer"
+    },
+    {
+      "Name": "Jane",
+      "Age": 45,
+      "Occupation": "Project Manager"
+    },
+    {
+      "Name": "Mike",
+      "Age": 50,
+      "Occupation": "Graphic Designer"
+    },
+    {
+      "Name": "Lisa",
+      "Age": 55,
+      "Occupation": "Marketing Specialist"
+    },
+    {
+      "Name": "Kate",
+      "Age": 60,
+      "Occupation": "HR Manager"
+    },{
+      "Name": "Atep",
+      "Age": 20,
+      "Occupation": "Software Engineer"
+    },
+    {
+      "Name": "John",
+      "Age": 25,
+      "Occupation": "Doctor"
+    },
+    {
+      "Name": "David",
+      "Age": 30,
+      "Occupation": "Teacher"
+    },
+    {
+      "Name": "Sarah",
+      "Age": 35,
+      "Occupation": "Business Analyst"
+    },
+    {
+      "Name": "Tom",
+      "Age": 40,
+      "Occupation": "Web Developer"
+    },
+    {
+      "Name": "Jane",
+      "Age": 45,
+      "Occupation": "Project Manager"
+    },
+    {
+      "Name": "Mike",
+      "Age": 50,
+      "Occupation": "Graphic Designer"
+    },
+    {
+      "Name": "Lisa",
+      "Age": 55,
+      "Occupation": "Marketing Specialist"
+    },
+    {
+      "Name": "Kate",
+      "Age": 60,
+      "Occupation": "HR Manager"
+    },
+    {
+      "Name": "Atep",
+      "Age": 20,
+      "Occupation": "Software Engineer"
+    },
+    {
+      "Name": "John",
+      "Age": 25,
+      "Occupation": "Doctor"
+    },
+    {
+      "Name": "David",
+      "Age": 30,
+      "Occupation": "Teacher"
+    },
+    {
+      "Name": "Sarah",
+      "Age": 35,
+      "Occupation": "Business Analyst"
+    },
+    {
+      "Name": "Tom",
+      "Age": 40,
+      "Occupation": "Web Developer"
+    },
+    {
+      "Name": "Jane",
+      "Age": 45,
+      "Occupation": "Project Manager"
+    },
+    {
+      "Name": "Mike",
+      "Age": 50,
+      "Occupation": "Graphic Designer"
+    },
+    {
+      "Name": "Lisa",
+      "Age": 55,
+      "Occupation": "Marketing Specialist"
+    },
+    {
+      "Name": "Kate",
+      "Age": 60,
+      "Occupation": "HR Manager"
     }
+
   ];
 
   @override
@@ -29,7 +194,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("My First App"),
+          title: Center(
+            child: Text("Kontak Saya"),
+          ),
         ),
         body: ListView(       
           children: myList.map((data) {
